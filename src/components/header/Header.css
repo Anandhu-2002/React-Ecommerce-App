@@ -1,0 +1,28 @@
+.header{
+    top: 0;
+    background-color: #151a1f;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height:6vh ;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+
+ 
+}
+.header h1{
+    margin: 0%;
+}
+.header button{
+    background-color: #ff5722;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 30px;
+}
