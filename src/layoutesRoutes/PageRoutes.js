@@ -14,6 +14,7 @@ function PageRoutes(){
         <Header />
         <Routes>
            <Route path='/' element={<Home/>} />
+           <Route path='/React-Ecommerce-App' element={<Home/>} />
            <Route path='/logout' element={<Logout />} />
            <Route path='/productDetails/:id' element={<ProductDetails />} />
         </Routes>
